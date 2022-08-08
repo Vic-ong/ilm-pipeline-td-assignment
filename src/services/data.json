@@ -1,42 +1,42 @@
 [
     {
         "priority": 1,
-        "task": "test-a"
+        "command": "test-a"
     },
     {
         "priority": 2,
-        "task": "exec-b"
+        "command": "exec-b"
     },
     {
         "priority": 1,
-        "task": "migrate-a"
+        "command": "migrate-a"
     },
     {
         "priority": 1,
-        "task": "deploy-a"
+        "command": "deploy-a"
     },
     {
         "priority": 5,
-        "task": "exec-d"
+        "command": "exec-d"
     },
     {
         "priority": 2,
-        "task": "run-b"
+        "command": "run-b"
     },
     {
         "priority": 4,
-        "task": "test-c"
+        "command": "test-c"
     },
     {
         "priority": 4,
-        "task": "migrate-c"
+        "command": "migrate-c"
     },
     {
         "priority": 5,
-        "task": "deploy-d"
+        "command": "deploy-d"
     },
     {
         "priority": 1,
-        "task": "deploy-ab"
+        "command": "deploy-ab"
     }
 ]

@@ -6,11 +6,33 @@ Implement a simple priority queue. Assume an incoming stream of dictionaries con
 
 ## Approach
 
-xxx
+I started with the simplest approach first, that is to create a priority queue class where task can be added to the queue and dequeue based on first in first out *following the priority*.
+
+Adding on it, I decided to create a `--priority` flag to allow users to filter execution based on priority and a `--silent` flag to remove logs for performance.
 
 ## Development setup
 
-xxx
+**Requirements**
+
+- Python 3
+
+**Run priority queue**
+
+No external dependencies needed
+
+```bash
+# runs all tasks from queue
+python src/index.py
+
+# runs only tasks from queue of priority 1
+python src/index.py --priority 1
+
+# runs tasks from queue of multiple priorities
+python src/index.py --priority 1,2,4
+
+# runs tasks from queue priority 1 and 2 in silent mode.
+python src/index.py --priority 1,2 --silent
+```
 
 ## Questions
 
