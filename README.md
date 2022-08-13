@@ -34,6 +34,11 @@ python src/index.py --priority 1,2,4
 python src/index.py --priority 1,2 --silent
 ```
 
+**Change data input**
+
+You can change the data input on `src/services/data.json`
+
+
 ## Questions
 
 **Please explain Big-O notation in simple terms.**
